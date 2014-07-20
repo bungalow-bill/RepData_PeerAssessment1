@@ -18,6 +18,8 @@ The first step is to load and condition the data for analysis.  The input data i
 library(ggplot2)
 library(lubridate)
 library(scales)
+require(knitr)
+opts_chunk$set( fig.path = 'figures/' )
 
 if(!file.exists('activity.csv')){
   unzip('activity.zip')

@@ -73,6 +73,9 @@ code > span.er { color: #ff0000; font-weight: bold; }
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(ggplot2)
 <span class="kw">library</span>(lubridate)
 <span class="kw">library</span>(scales)
+<span class="kw">require</span>(knitr)</code></pre>
+<pre><code>## Loading required package: knitr</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r">opts_chunk$<span class="kw">set</span>( <span class="dt">fig.path =</span> <span class="st">'figures/'</span> )
 
 if(!<span class="kw">file.exists</span>(<span class="st">'activity.csv'</span>)){
   <span class="kw">unzip</span>(<span class="st">'activity.zip'</span>)

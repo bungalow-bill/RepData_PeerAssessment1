@@ -2,7 +2,7 @@
 output:
   html_document:
     highlight: pygments
-    self_contained: no
+    self_contained: yes
     keep_md: true
     theme: united
   pdf_document: default

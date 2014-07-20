@@ -61,7 +61,7 @@ each day of the 61 days in the dataset.
       annotate("text",label=sprintf('Median = %5.1f',step.median),x=step.median,y=7,angle=90,vjust=-.5,colour="blue",size=4)
 
 ![plot of chunk
-histogram](PA1_template_files/figure-markdown_strict/histogram.png)
+histogram](./blob/master/PA1_template_files/figure-markdown_strict/histogram.png)
 
 The above graph indicates that the most common number of steps in a day
 was between 10000 and 11000, with 10 days reporting totals in that
@@ -98,7 +98,7 @@ The following figure shows the average number of steps reported in each
       annotate("text",label=format(max.int[1,1],"%H:%M"),x=max.int[1,1],y=20,angle=90,vjust=-.5,colour="red",size=4)
 
 ![plot of chunk
-daily\_pattern](PA1_template_files/figure-markdown_strict/daily_pattern.png)
+daily\_pattern](./blob/master/PA1_template_files/figure-markdown_strict/daily_pattern.png)
 
 As illustrated by the dashed red line, the time interval that had the
 highest average number of steps was 08:35 which had an average number of
@@ -125,7 +125,7 @@ of steps reported for each day in the duration of the dataset.
     ## Warning: Removed 8 rows containing missing values (position_stack).
 
 ![plot of chunk
-missing\_data](PA1_template_files/figure-markdown_strict/missing_data.png)
+missing\_data](./blob/master/PA1_template_files/figure-markdown_strict/missing_data.png)
 
 There appear to be 2304 rows with missing data, which occur on 8
 separate dates. checking the data for those dates we find that they are
@@ -158,7 +158,7 @@ additional 8 days.
       annotate("text",label=sprintf('Median = %5.1f',filled.median),x=filled.median,y=10,angle=90,vjust=-.5,colour="blue",size=4)
 
 ![plot of chunk
-fill\_data](PA1_template_files/figure-markdown_strict/fill_data.png)
+fill\_data](./blob/master/PA1_template_files/figure-markdown_strict/fill_data.png)
 
 Looking at the mean and median values, there is a small change;
 
@@ -214,7 +214,7 @@ regular frequency.
       ggtitle('Total Steps Per Day: After Filling Missing Values')
 
 ![plot of chunk
-filled\_calendar](PA1_template_files/figure-markdown_strict/filled_calendar.png)
+filled\_calendar](./blob/master/PA1_template_files/figure-markdown_strict/filled_calendar.png)
 
 Are there differences in activity patterns between weekdays and weekends?
 -------------------------------------------------------------------------
@@ -242,7 +242,7 @@ average activity patterns between weekends and weekdays.
       facet_grid(weekend~.)
 
 ![plot of chunk
-weekends](PA1_template_files/figure-markdown_strict/weekends.png)
+weekends](./blob/master/PA1_template_files/figure-markdown_strict/weekends.png)
 
 A comparison of the two traces would seem to support the conclusion that
 the subject slept in more often on weekends and sometimes skipped their

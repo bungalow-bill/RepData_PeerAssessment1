@@ -61,7 +61,7 @@ each day of the 61 days in the dataset.
       annotate("text",label=sprintf('Median = %5.1f',step.median),x=step.median,y=7,angle=90,vjust=-.5,colour="blue",size=4)
 
 ![plot of chunk
-histogram](PA1_template_files/figure-markdown_strict/histogram.png)
+histogram](instructions_fig/histogram.png)
 
 The above graph indicates that the most common number of steps in a day
 was between 10000 and 11000, with 10 days reporting totals in that
